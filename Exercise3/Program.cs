@@ -17,6 +17,10 @@ namespace Exercise3
             
             Console.Write("Enter your name: ");
             var name = Console.ReadLine();
+
+            Console.Write("What is your age?");
+            var age = int.Parse(Console.ReadLine());
+
             Console.WriteLine("Hello, {0}!", name);
             Console.ReadKey();
         }
