@@ -21,7 +21,7 @@ namespace Exercise3
             Console.Write("What is your age?");
             var age = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Hello, {0}!", name);
+            Console.WriteLine("Hello, {0}{1,4}!", name,age);
             Console.ReadKey();
         }
     }
