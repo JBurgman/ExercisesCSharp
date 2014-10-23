@@ -10,14 +10,22 @@ namespace Exercise2
     {
         static void Main(string[] args)
         {
-            //Fields
-            float a = 1F;
-            float b = 0.1F;
-            Console.WriteLine(a - b * 10);
+            Console.Write("Name:");
+            var name = Console.ReadLine();
 
-            decimal c = 1M;
-            decimal d = 0.1M;
-            Console.WriteLine(c - d * 10);
+            Console.Write("Work:");
+            var work = Console.ReadLine();
+
+            Console.Write("Age:");
+            var age = Console.ReadLine();
+
+            Console.Write("Jobtitle:");
+            var jobtitle = Console.ReadLine();
+
+            Console.WriteLine("Hello, " + name);
+            Console.WriteLine("You are {0} years old and work at {1}, where {2} is your title.",age,work,jobtitle);
+
+
 
             Console.ReadLine();
         }
